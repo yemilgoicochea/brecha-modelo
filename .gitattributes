@@ -1,0 +1,19 @@
+# Normalizar todos los archivos de texto a LF en el repositorio
+* text eol=lf
+
+# Archivos binarios que no deben modificarse en finales de línea
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.npy binary
+*.faiss binary
+*.pt binary
+*.safetensors binary
+*.pth binary
+*.zip binary
+*.gz binary
+
+# Opcional: evitar que notebooks Jupyter sufran cambios de EOL internos
+*.ipynb text eol=lf
