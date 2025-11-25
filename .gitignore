@@ -1,0 +1,67 @@
+# === Python compilados y caches ===
+__pycache__/
+*.py[cod]
+*.so
+*.dist-info/
+*.egg-info/
+
+# Entornos
+.env
+.env*/
+.venv/
+venv/
+
+# Herramientas build
+build/
+dist/
+.eggs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+project/notebooks/.ipynb_checkpoints/
+project/predata/.ipynb_checkpoints/
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Datos grandes y artefactos de modelos
+project/models/
+# Pesos y tensores en cualquier parte
+*.pt
+*.pth
+*.safetensors
+
+# Embeddings / índices
+*.npy
+*.npz
+*.faiss
+*.idx
+
+# Salidas derivadas que pueden regenerarse
+project/outputs/brecha_embeddings.npy
+project/outputs/brecha_index.faiss
+project/predata/output/
+
+# Mantener CSV base (no ignorar)
+# !project/data/brechas.csv
+# !project/data/proyectos.csv
+# !project/outputs/brechas_with_idx.csv
+
+# Ignorar otros binarios comprimidos
+*.gz
+*.zip
+*.7z
+
+# Reports generados
+report*/
+
+# Si se usa DVC o LFS, ajustar acá posteriormente

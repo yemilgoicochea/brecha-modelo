@@ -1,0 +1,24 @@
+# Requisitos para Pipeline Híbrido de Clasificación de Brechas
+# Instalación: pip install -r requirements.txt
+
+# Core ML/DL
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.21.0
+sentence-transformers>=2.2.0
+
+# Vector Search
+faiss-cpu>=1.7.4
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Utilities
+tqdm>=4.65.0
+datasets>=2.14.0
+
+# Para Google Cloud (opcional - ya vienen preinstalados en Vertex AI)
+# google-cloud-storage
+# google-cloud-aiplatform
