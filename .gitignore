@@ -47,14 +47,16 @@ project/models/
 *.idx
 
 # Salidas derivadas que pueden regenerarse
-project/outputs/brecha_embeddings.npy
-project/outputs/brecha_index.faiss
+project/outputs/
+!project/outputs/brechas_with_idx.csv
 project/predata/output/
+project/predata/input/
+project/predata/procesar_excel.ipynb
 
 # Mantener CSV base (no ignorar)
-# !project/data/brechas.csv
-# !project/data/proyectos.csv
-# !project/outputs/brechas_with_idx.csv
+!project/data/brechas.csv
+!project/data/proyectos.csv
+!project/outputs/brechas_with_idx.csv
 
 # Ignorar otros binarios comprimidos
 *.gz
