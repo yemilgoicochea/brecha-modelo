@@ -51,7 +51,7 @@ project/outputs/
 !project/outputs/brechas_with_idx.csv
 project/predata/output/
 project/predata/input/
-project/predata/procesar_excel.ipynb
+# Versionar el notebook principal de pre-procesamiento
 
 # Mantener CSV base (no ignorar)
 !project/data/brechas.csv
